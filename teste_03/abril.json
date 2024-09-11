@@ -1,0 +1,37 @@
+{
+    "mes": "Abril",
+    "ano": 2024,
+    "faturamento_diario": [
+      {"dia": 1, "faturamento": 500.00},
+      {"dia": 2, "faturamento": 450.75},
+      {"dia": 3, "faturamento": 520.20},
+      {"dia": 4, "faturamento": null},   
+      {"dia": 5, "faturamento": null},
+      {"dia": 6, "faturamento": 630.80},
+      {"dia": 7, "faturamento": 700.50},
+      {"dia": 8, "faturamento": 590.00},
+      {"dia": 9, "faturamento": 530.25},
+      {"dia": 10, "faturamento": 600.00},
+      {"dia": 11, "faturamento": 610.50},
+      {"dia": 12, "faturamento": null}, 
+      {"dia": 13, "faturamento": null},  
+      {"dia": 14, "faturamento": 730.00},
+      {"dia": 15, "faturamento": 500.75},
+      {"dia": 16, "faturamento": 450.30},
+      {"dia": 17, "faturamento": 680.20},
+      {"dia": 18, "faturamento": 640.00},
+      {"dia": 19, "faturamento": null},  
+      {"dia": 20, "faturamento": null},  
+      {"dia": 21, "faturamento": 700.80},
+      {"dia": 22, "faturamento": 620.00},
+      {"dia": 23, "faturamento": 560.90},
+      {"dia": 24, "faturamento": 590.20},
+      {"dia": 25, "faturamento": 650.00},
+      {"dia": 26, "faturamento": null},  
+      {"dia": 27, "faturamento": null}, 
+      {"dia": 28, "faturamento": 720.10},
+      {"dia": 29, "faturamento": 660.00},
+      {"dia": 30, "faturamento": 750.30}
+    ]
+  }
+  
