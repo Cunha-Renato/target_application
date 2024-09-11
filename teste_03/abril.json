@@ -2,36 +2,125 @@
     "mes": "Abril",
     "ano": 2024,
     "faturamento_diario": [
-      {"dia": 1, "faturamento": 500.00},
-      {"dia": 2, "faturamento": 450.75},
-      {"dia": 3, "faturamento": 520.20},
-      {"dia": 4, "faturamento": null},   
-      {"dia": 5, "faturamento": null},
-      {"dia": 6, "faturamento": 630.80},
-      {"dia": 7, "faturamento": 700.50},
-      {"dia": 8, "faturamento": 590.00},
-      {"dia": 9, "faturamento": 530.25},
-      {"dia": 10, "faturamento": 600.00},
-      {"dia": 11, "faturamento": 610.50},
-      {"dia": 12, "faturamento": null}, 
-      {"dia": 13, "faturamento": null},  
-      {"dia": 14, "faturamento": 730.00},
-      {"dia": 15, "faturamento": 500.75},
-      {"dia": 16, "faturamento": 450.30},
-      {"dia": 17, "faturamento": 680.20},
-      {"dia": 18, "faturamento": 640.00},
-      {"dia": 19, "faturamento": null},  
-      {"dia": 20, "faturamento": null},  
-      {"dia": 21, "faturamento": 700.80},
-      {"dia": 22, "faturamento": 620.00},
-      {"dia": 23, "faturamento": 560.90},
-      {"dia": 24, "faturamento": 590.20},
-      {"dia": 25, "faturamento": 650.00},
-      {"dia": 26, "faturamento": null},  
-      {"dia": 27, "faturamento": null}, 
-      {"dia": 28, "faturamento": 720.10},
-      {"dia": 29, "faturamento": 660.00},
-      {"dia": 30, "faturamento": 750.30}
+      {
+        "dia": 1,
+        "valor": 22174.1664
+      },
+      {
+        "dia": 2,
+        "valor": 24537.6698
+      },
+      {
+        "dia": 3,
+        "valor": 26139.6134
+      },
+      {
+        "dia": 4,
+        "valor": 0.0
+      },
+      {
+        "dia": 5,
+        "valor": 0.0
+      },
+      {
+        "dia": 6,
+        "valor": 26742.6612
+      },
+      {
+        "dia": 7,
+        "valor": 0.0
+      },
+      {
+        "dia": 8,
+        "valor": 42889.2258
+      },
+      {
+        "dia": 9,
+        "valor": 46251.174
+      },
+      {
+        "dia": 10,
+        "valor": 11191.4722
+      },
+      {
+        "dia": 11,
+        "valor": 0.0
+      },
+      {
+        "dia": 12,
+        "valor": 0.0
+      },
+      {
+        "dia": 13,
+        "valor": 3847.4823
+      },
+      {
+        "dia": 14,
+        "valor": 373.7838
+      },
+      {
+        "dia": 15,
+        "valor": 2659.7563
+      },
+      {
+        "dia": 16,
+        "valor": 48924.2448
+      },
+      {
+        "dia": 17,
+        "valor": 18419.2614
+      },
+      {
+        "dia": 18,
+        "valor": 0.0
+      },
+      {
+        "dia": 19,
+        "valor": 0.0
+      },
+      {
+        "dia": 20,
+        "valor": 35240.1826
+      },
+      {
+        "dia": 21,
+        "valor": 43829.1667
+      },
+      {
+        "dia": 22,
+        "valor": 18235.6852
+      },
+      {
+        "dia": 23,
+        "valor": 4355.0662
+      },
+      {
+        "dia": 24,
+        "valor": 13327.1025
+      },
+      {
+        "dia": 25,
+        "valor": 0.0
+      },
+      {
+        "dia": 26,
+        "valor": 0.0
+      },
+      {
+        "dia": 27,
+        "valor": 25681.8318
+      },
+      {
+        "dia": 28,
+        "valor": 1718.1221
+      },
+      {
+        "dia": 29,
+        "valor": 13220.495
+      },
+      {
+        "dia": 30,
+        "valor": 8414.61
+      }
     ]
-  }
-  
+}

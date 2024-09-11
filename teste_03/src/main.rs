@@ -13,11 +13,11 @@ fn faturamento_mensal(value: serde_json::Value) -> EstatisticaMensal {
         // Calculo da média
         result.media_mensal = faturamento_diario
             .iter()
-            .filter(|dia| dia["faturamento"].as_f64().is_some())
-            .map(|dia| dia["faturamento"].as_f64().unwrap())
+            .filter(|dia| dia["valor"].as_f64().unwrap() != 0.0)
+            .map(|dia| dia["valor"].as_f64().unwrap())
             .sum::<f64>() / faturamento_diario
             .iter()
-            .filter(|dia| dia["faturamento"].as_f64().is_some())
+            .filter(|dia| dia["valor"].as_f64().unwrap() != 0.0)
             .count() as f64;
         
         let mut menor_faturamento = f64::MAX;
@@ -25,8 +25,8 @@ fn faturamento_mensal(value: serde_json::Value) -> EstatisticaMensal {
 
         for dia in faturamento_diario {
             let dia_num = dia["dia"].as_u64().unwrap();
-            if let Some(faturamento) = dia["faturamento"].as_f64() {
-                
+            let faturamento = dia["valor"].as_f64().unwrap();
+            if faturamento != 0.0 {
                 if menor_faturamento > faturamento {
                     menor_faturamento = faturamento;
                     result.menor_faturamento_dia = dia_num;
